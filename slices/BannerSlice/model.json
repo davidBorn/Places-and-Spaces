@@ -29,22 +29,6 @@
             "single": "paragraph"
           }
         },
-        "bannerButtonLabel": {
-          "config": {
-            "label": "bannerButtonLabel",
-            "placeholder": "Banner button label"
-          },
-          "type": "Text"
-        },
-        "bannerButtonLink": {
-          "config": {
-            "label": "bannerButtonLink",
-            "placeholder": "Enter link",
-            "select": "web",
-            "allowTargetBlank": false
-          },
-          "type": "Link"
-        },
         "bannerImage": {
           "config": {
             "label": "bannerImage",

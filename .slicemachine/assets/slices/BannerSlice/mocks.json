@@ -8,27 +8,22 @@
       "title": [
         {
           "type": "heading1",
-          "text": "Syndicate proactive metrics",
+          "text": "Integrate intuitive markets",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Lorem aliqua id commodo minim amet consequat in qui dolor do laboris dolore in enim. Qui pariatur anim culpa do excepteur sunt culpa pariatur non nulla adipisicing labore in enim esse. Eu enim ipsum magna culpa magna nisi mollit irure Lorem esse sint.",
+          "text": "Amet est est consequat officia adipisicing aute. Voluptate cillum commodo ipsum Lorem. Ut excepteur cillum laborum do nulla mollit minim do.",
           "spans": []
         },
         {
           "type": "paragraph",
-          "text": "Sint ea Lorem nisi veniam magna fugiat consequat sit elit quis sit cupidatat. Sint voluptate nostrud tempor minim anim et proident.",
+          "text": "Sint aute qui cupidatat consectetur sunt ad magna. Minim irure eiusmod non ipsum commodo excepteur officia adipisicing. Adipisicing ea cillum cillum ad officia officia.",
           "spans": []
         }
       ],
-      "bannerButtonLabel": "Google Button",
-      "bannerButtonLink": {
-        "link_type": "Web",
-        "url": "https://slicemachine.dev"
-      },
       "bannerImage": {
         "dimensions": {
           "width": 900,

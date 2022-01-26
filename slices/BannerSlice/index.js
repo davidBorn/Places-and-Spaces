@@ -28,15 +28,6 @@ const BannerSlice = ({ slice }) => (
                             builder!
                         </p>
                     )}
-                    {slice.primary.bannerButtonLabel &&
-                    slice.primary.bannerButtonLink ? (
-                        <a
-                            className="primary_button"
-                            href={Link.url(slice.primary.bannerButtonLink)}
-                        >
-                            {slice.primary.bannerButtonLabel}
-                        </a>
-                    ) : null}
                 </div>
             </div>
 
