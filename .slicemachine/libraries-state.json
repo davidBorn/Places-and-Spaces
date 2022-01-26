@@ -1,0 +1,659 @@
+{
+  "slices": {
+    "components": {
+      "about_me": {
+        "library": "slices",
+        "id": "about_me",
+        "name": "AboutMe",
+        "description": "AboutMe",
+        "model": {
+          "id": "about_me",
+          "type": "SharedSlice",
+          "name": "AboutMe",
+          "description": "AboutMe",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "AboutMe",
+              "primary": {
+                "aboutMeImage": {
+                  "config": {
+                    "label": "aboutMeImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Enter Section Title Here...",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph"
+                  }
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "about_me",
+            "items": [],
+            "primary": {
+              "aboutMeImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1485178575877-1a13bf489dfe?w=900&h=500&fit=crop"
+              },
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Repurpose B2C action-items",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Aute nostrud proident sunt fugiat mollit minim quis aute qui occaecat duis. Elit esse non proident duis officia duis magna laboris deserunt dolor et.",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Laborum ipsum veniam laboris pariatur quis duis exercitation ex proident adipisicing nisi adipisicing excepteur cupidatat.",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "In pariatur id excepteur laboris officia. Irure non do eiusmod elit consectetur fugiat ea.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/davidborn/Documents/Next-Projects/new-demo-site/.slicemachine/assets/slices/AboutMe/default-slice/preview.png",
+            "width": 1168,
+            "height": 520
+          }
+        }
+      },
+      "banner_slice": {
+        "library": "slices",
+        "id": "banner_slice",
+        "name": "BannerSlice",
+        "description": "BannerSlice",
+        "model": {
+          "id": "banner_slice",
+          "type": "SharedSlice",
+          "name": "BannerSlice",
+          "description": "BannerSlice",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "BannerSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "Enter banner description text",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "bannerButtonLabel": {
+                  "config": {
+                    "label": "bannerButtonLabel",
+                    "placeholder": "Banner button label"
+                  },
+                  "type": "Text"
+                },
+                "bannerButtonLink": {
+                  "config": {
+                    "label": "bannerButtonLink",
+                    "placeholder": "Enter link",
+                    "select": "web",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "bannerImage": {
+                  "config": {
+                    "label": "bannerImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "banner_slice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Syndicate proactive metrics",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Lorem aliqua id commodo minim amet consequat in qui dolor do laboris dolore in enim. Qui pariatur anim culpa do excepteur sunt culpa pariatur non nulla adipisicing labore in enim esse. Eu enim ipsum magna culpa magna nisi mollit irure Lorem esse sint.",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Sint ea Lorem nisi veniam magna fugiat consequat sit elit quis sit cupidatat. Sint voluptate nostrud tempor minim anim et proident.",
+                  "spans": []
+                }
+              ],
+              "bannerButtonLabel": "Google Button",
+              "bannerButtonLink": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "bannerImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1555169062-013468b47731?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/davidborn/Documents/Next-Projects/new-demo-site/.slicemachine/assets/slices/BannerSlice/default-slice/preview.png",
+            "width": 1168,
+            "height": 551
+          }
+        }
+      },
+      "contact": {
+        "library": "slices",
+        "id": "contact",
+        "name": "Contact",
+        "description": "Contact",
+        "model": {
+          "id": "contact",
+          "type": "SharedSlice",
+          "name": "Contact",
+          "description": "Contact",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Contact",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Enter Section Title (ie. Contact)",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "EmailLabel": {
+                  "config": {
+                    "label": "EmailLabel",
+                    "placeholder": "Enter Email Label (ex: Email:)"
+                  },
+                  "type": "Text"
+                },
+                "EmailText": {
+                  "config": {
+                    "label": "EmailText",
+                    "placeholder": "youremail@email.com"
+                  },
+                  "type": "Text"
+                },
+                "Email": {
+                  "config": {
+                    "label": "Email",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "PhoneLabel": {
+                  "config": {
+                    "label": "Phone",
+                    "placeholder": "Enter Phone Label (ex: Phone:)"
+                  },
+                  "type": "Text"
+                },
+                "PhoneNumberText": {
+                  "config": {
+                    "label": "PhoneNumberText",
+                    "placeholder": "+1-123-456-7899"
+                  },
+                  "type": "Text"
+                },
+                "PhoneNumber": {
+                  "config": {
+                    "label": "PhoneNumber",
+                    "placeholder": "tel: 123-4556-7890",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "ContactImageField": {
+                  "config": {
+                    "label": "ContactImageField",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "contact",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Optimize open-source mindshare",
+                  "spans": []
+                }
+              ],
+              "EmailLabel": "utilize open-source web services",
+              "EmailText": "benchmark rich web-readiness",
+              "Email": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "PhoneLabel": "envisioneer cross-media functionalities",
+              "PhoneNumberText": "facilitate bricks-and-clicks platforms",
+              "PhoneNumber": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              },
+              "ContactImageField": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1462206092226-f46025ffe607?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/davidborn/Documents/Next-Projects/new-demo-site/.slicemachine/assets/slices/Contact/default-slice/preview.png",
+            "width": 800,
+            "height": 476
+          }
+        }
+      },
+      "services_and_benfits": {
+        "library": "slices",
+        "id": "services_and_benfits",
+        "name": "ServicesAndBenfits",
+        "description": "ServicesAndBenfits",
+        "model": {
+          "id": "services_and_benfits",
+          "type": "SharedSlice",
+          "name": "ServicesAndBenfits",
+          "description": "ServicesAndBenfits",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ServicesAndBenfits",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Section title",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "description": {
+                  "config": {
+                    "label": "description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {
+                "ItemTitle": {
+                  "config": {
+                    "label": "ItemTitle",
+                    "placeholder": "Enter Item Title Here",
+                    "allowTargetBlank": true,
+                    "single": "heading3"
+                  },
+                  "type": "StructuredText"
+                },
+                "ItemDescription": {
+                  "config": {
+                    "label": "ItemDescription",
+                    "placeholder": "Item Descrition",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph"
+                  },
+                  "type": "StructuredText"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "services_and_benfits",
+            "items": [
+              {
+                "ItemTitle": [
+                  {
+                    "type": "heading3",
+                    "text": "Incentivize leading-edge relationships",
+                    "spans": []
+                  }
+                ],
+                "ItemDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Labore est consequat occaecat est qui aute eu nostrud aliqua tempor officia.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "ItemTitle": [
+                  {
+                    "type": "heading3",
+                    "text": "Visualize best-of-breed deliverables",
+                    "spans": []
+                  }
+                ],
+                "ItemDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Deserunt ad velit ullamco eiusmod voluptate dolore ad ex. Quis magna magna commodo et ut proident aute cillum minim voluptate est nisi excepteur proident ex. Velit non enim elit exercitation ea adipisicing ad est anim reprehenderit.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "ItemTitle": [
+                  {
+                    "type": "heading3",
+                    "text": "Productize synergistic e-services",
+                    "spans": []
+                  }
+                ],
+                "ItemDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Lorem anim qui nulla sit.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Deliver end-to-end models",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Veniam adipisicing eiusmod exercitation excepteur deserunt occaecat deserunt. Proident veniam laborum commodo culpa est elit reprehenderit elit enim.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/davidborn/Documents/Next-Projects/new-demo-site/.slicemachine/assets/slices/ServicesAndBenfits/default-slice/preview.png",
+            "width": 1168,
+            "height": 576
+          }
+        }
+      },
+      "testimonials": {
+        "library": "slices",
+        "id": "testimonials",
+        "name": "Testimonials",
+        "description": "Testimonials",
+        "model": {
+          "id": "testimonials",
+          "type": "SharedSlice",
+          "name": "Testimonials",
+          "description": "Testimonials",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Testimonials",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Title",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                }
+              },
+              "items": {
+                "Name": {
+                  "config": {
+                    "label": "Name",
+                    "placeholder": "Persons Name",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  },
+                  "type": "StructuredText"
+                },
+                "Quote": {
+                  "config": {
+                    "label": "Quote",
+                    "placeholder": "Persons Testimonial",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph"
+                  },
+                  "type": "StructuredText"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "testimonials",
+            "items": [
+              {
+                "Name": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nulla occaecat ut sit fugiat consectetur cupidatat reprehenderit ex mollit. Sint do tempor ipsum adipisicing eiusmod sit nisi adipisicing aute. Irure non cupidatat do exercitation nostrud ipsum esse aliquip labore nulla pariatur sit laborum.",
+                    "spans": []
+                  }
+                ],
+                "Quote": [
+                  {
+                    "type": "paragraph",
+                    "text": "Cupidatat proident ut consectetur ad.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "Name": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ut qui ad enim sint eu anim adipisicing sunt ut. Esse eu deserunt dolor quis dolore laborum. Ea minim sint Lorem in reprehenderit minim.",
+                    "spans": []
+                  }
+                ],
+                "Quote": [
+                  {
+                    "type": "paragraph",
+                    "text": "Proident reprehenderit elit consectetur culpa veniam magna duis ullamco laboris minim esse do.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "Name": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nulla cupidatat irure consequat ex anim laborum velit Lorem officia in ullamco in nostrud laboris.",
+                    "spans": []
+                  }
+                ],
+                "Quote": [
+                  {
+                    "type": "paragraph",
+                    "text": "Officia ullamco adipisicing amet. Pariatur esse do nulla deserunt.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "Name": [
+                  {
+                    "type": "paragraph",
+                    "text": "Voluptate deserunt magna magna nulla. Non aute laborum cupidatat nulla tempor consequat enim enim qui adipisicing elit reprehenderit.",
+                    "spans": []
+                  }
+                ],
+                "Quote": [
+                  {
+                    "type": "paragraph",
+                    "text": "Consectetur voluptate est consequat duis reprehenderit pariatur aute fugiat.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Drive end-to-end ROI",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/davidborn/Documents/Next-Projects/new-demo-site/.slicemachine/assets/slices/Testimonials/default-slice/preview.png",
+            "width": 800,
+            "height": 705
+          }
+        }
+      }
+    }
+  }
+}

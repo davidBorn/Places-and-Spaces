@@ -1,0 +1,126 @@
+{
+  "slices": {
+    "BannerSlice": {
+      "default-slice": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 2
+            }
+          },
+          "bannerButtonLabel": {
+            "content": "Google Button"
+          },
+          "bannerImage": {
+            "content": "https://images.unsplash.com/photo-1555169062-013468b47731"
+          }
+        }
+      }
+    },
+    "NewSlice": {},
+    "AboutMe": {
+      "default-slice": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 3
+            }
+          },
+          "aboutMeImage": {
+            "content": "https://images.unsplash.com/photo-1485178575877-1a13bf489dfe"
+          }
+        }
+      }
+    },
+    "ServicesAndBenfits": {
+      "default-slice": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "ItemTitle": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "ItemDescription": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Contact": {
+      "default-slice": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "ContactImageField": {
+            "content": "https://images.unsplash.com/photo-1462206092226-f46025ffe607"
+          }
+        }
+      }
+    },
+    "Testimonials": {
+      "default-slice": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "Name": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "Quote": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "_cts": {
+    "landing-page": {}
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "banner_slice",
+  "type": "SharedSlice",
+  "name": "BannerSlice",
+  "description": "BannerSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "BannerSlice",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Enter banner description text",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "bannerButtonLabel": {
+          "config": {
+            "label": "bannerButtonLabel",
+            "placeholder": "Banner button label"
+          },
+          "type": "Text"
+        },
+        "bannerButtonLink": {
+          "config": {
+            "label": "bannerButtonLink",
+            "placeholder": "Enter link",
+            "select": "web",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "bannerImage": {
+          "config": {
+            "label": "bannerImage",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "contact",
+  "type": "SharedSlice",
+  "name": "Contact",
+  "description": "Contact",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Contact",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Enter Section Title (ie. Contact)",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "EmailLabel": {
+          "config": {
+            "label": "EmailLabel",
+            "placeholder": "Enter Email Label (ex: Email:)"
+          },
+          "type": "Text"
+        },
+        "EmailText": {
+          "config": {
+            "label": "EmailText",
+            "placeholder": "youremail@email.com"
+          },
+          "type": "Text"
+        },
+        "Email": {
+          "config": {
+            "label": "Email",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "PhoneLabel": {
+          "config": {
+            "label": "Phone",
+            "placeholder": "Enter Phone Label (ex: Phone:)"
+          },
+          "type": "Text"
+        },
+        "PhoneNumberText": {
+          "config": {
+            "label": "PhoneNumberText",
+            "placeholder": "+1-123-456-7899"
+          },
+          "type": "Text"
+        },
+        "PhoneNumber": {
+          "config": {
+            "label": "PhoneNumber",
+            "placeholder": "tel: 123-4556-7890",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "ContactImageField": {
+          "config": {
+            "label": "ContactImageField",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

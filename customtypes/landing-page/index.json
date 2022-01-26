@@ -1,0 +1,17 @@
+{
+  "id": "landing-page",
+  "label": "Landing Page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        },
+        "type": "UID"
+      }
+    }
+  }
+}

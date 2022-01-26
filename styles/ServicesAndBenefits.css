@@ -1,0 +1,32 @@
+#services-and-benefits {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #28c1e2;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#services-and-benefits .section_title p {
+    color: #fff;
+}
+#services-and-benefits .item-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+#services-and-benefits .item {
+    flex: 1 48%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px 43px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    #services-and-benefits .item {
+        flex: 1 1 100%;
+    }
+}

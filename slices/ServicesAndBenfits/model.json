@@ -1,0 +1,55 @@
+{
+  "id": "services_and_benfits",
+  "type": "SharedSlice",
+  "name": "ServicesAndBenfits",
+  "description": "ServicesAndBenfits",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ServicesAndBenfits",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Section title",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "description": {
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "ItemTitle": {
+          "config": {
+            "label": "ItemTitle",
+            "placeholder": "Enter Item Title Here",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        },
+        "ItemDescription": {
+          "config": {
+            "label": "ItemDescription",
+            "placeholder": "Item Descrition",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}

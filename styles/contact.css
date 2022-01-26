@@ -1,0 +1,84 @@
+section#Contact {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+section#Contact h2 {
+    margin-top: 0;
+}
+section#Contact .contact-image {
+    width: 70%;
+    padding-bottom: 46.25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+section#Contact .contactCard {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 40px 200px 30px 30px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 15px;
+}
+section#Contact .section_title {
+    margin-bottom: 40px;
+}
+section#Contact .contact_info .phone_number_section {
+    margin-bottom: 5px;
+}
+
+section#Contact .contact_info .phone_number_section,
+section#Contact .contact_info .email_section {
+    display: flex;
+}
+section#Contact .contact_info .phone_label::before {
+    content: "\f095";
+    font-family: "FontAwesome";
+    margin-right: 6px;
+    font-size: 16px;
+}
+section#Contact .contact_info .email_label:before {
+    content: "\f0e0";
+    font-family: "FontAwesome";
+    margin-right: 3px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+section#Contact .contact_info .phone_number,
+section#Contact .contact_info .email {
+    margin: 0;
+    margin-left: 5px;
+}
+
+@media (max-width: 1060px) {
+    section#Contact .contactCard {
+        left: 55%;
+        right: 0;
+    }
+}
+@media (max-width: 767px) {
+    section#Contact .contact-image {
+        width: 100%;
+        padding-bottom: 0;
+        background-image: none !important;
+    }
+    section#Contact .contactCard {
+        position: relative;
+        width: 100%;
+        transform: none;
+        left: auto;
+        top: auto;
+    }
+}
