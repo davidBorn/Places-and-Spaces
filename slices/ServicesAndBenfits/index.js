@@ -16,7 +16,7 @@ const ServicesAndBenfits = ({ slice }) => (
             </div>
             <div className="item-container">
                 {slice.items.map((item, i) => (
-                    <div className="item">
+                    <div key={i} className="item">
                         <div className="item_title">
                             <RichText render={item.ItemTitle} />
                         </div>

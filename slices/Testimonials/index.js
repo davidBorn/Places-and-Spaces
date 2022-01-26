@@ -13,7 +13,7 @@ const Testimonials = ({ slice }) => (
             </div>
             <div className="testimonial-items">
                 {slice.items.map((item, i) => (
-                    <div className="testimonial-item">
+                    <div key={i} className="testimonial-item">
                         <div className="testimonial-content">
                             <RichText render={item.Quote} />
                             <p className="testimonial-name">

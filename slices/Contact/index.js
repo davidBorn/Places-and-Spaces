@@ -4,7 +4,7 @@ import { Link } from "prismic-reactjs";
 
 const Contact = ({ slice }) => (
     <section id="Contact" className="conatact_section">
-        <div class="db_site_margins">
+        <div className="db_site_margins">
             <div
                 className="contact-image"
                 style={{

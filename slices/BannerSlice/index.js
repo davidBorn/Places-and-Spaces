@@ -6,7 +6,7 @@ const BannerSlice = ({ slice }) => (
     <div>
         <section className="banner-section">
             <div
-                class="banner-right-image"
+                className="banner-right-image"
                 style={{
                     backgroundImage: `url(${slice.primary.bannerImage.url})`,
                 }}
