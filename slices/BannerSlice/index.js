@@ -32,7 +32,7 @@ const BannerSlice = ({ slice }) => (
                     slice.primary.bannerButtonLink ? (
                         <a
                             className="primary_button"
-                            href={Link.url(slice.primary.buttonBannerLink)}
+                            href={Link.url(slice.primary.bannerButtonLink)}
                         >
                             {slice.primary.bannerButtonLabel}
                         </a>

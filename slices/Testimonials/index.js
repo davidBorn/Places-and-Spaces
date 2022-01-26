@@ -16,12 +16,12 @@ const Testimonials = ({ slice }) => (
                     <div key={i} className="testimonial-item">
                         <div className="testimonial-content">
                             <RichText render={item.Quote} />
-                            <p className="testimonial-name">
+                            <pre className="testimonial-name">
                                 <span>-</span>
                                 <span>
                                     <RichText render={item.Name} />
                                 </span>
-                            </p>
+                            </pre>
                         </div>
                     </div>
                 ))}
