@@ -198,7 +198,13 @@
           "isDirectory": true,
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/davidborn/Documents/Next-Projects/new-demo-site/.slicemachine/assets/slices/BannerSlice/default-slice/preview.png",
+            "width": 800,
+            "height": 775
+          }
+        }
       },
       "contact": {
         "library": "slices",

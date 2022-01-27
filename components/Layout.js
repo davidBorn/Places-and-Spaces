@@ -8,8 +8,14 @@ const Layout = ({ isPreview, children, altLangs, lang, menu }) => (
     <>
         <Head>
             <meta charSet="utf-8" />
+            <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1"
+            ></meta>
+            <meta name="robots" content="noindex, nofollow" />
             <link rel="icon" href="/favicon.png" type="image/png" />
             <title>The Assisted Living Places and Spaces</title>
+
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link
                 rel="preconnect"
@@ -27,6 +33,7 @@ const Layout = ({ isPreview, children, altLangs, lang, menu }) => (
                 crossOrigin="anonymous"
                 referrerpolicy="no-referrer"
             />
+
             <script
                 async
                 defer
