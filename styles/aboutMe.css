@@ -9,7 +9,7 @@ section#about {
     display: flex;
 }
 .about_picture_section {
-    width: 500%;
+    width: 50%;
 }
 #about .about_profile_pic {
     width: 400px;
