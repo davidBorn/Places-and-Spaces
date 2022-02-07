@@ -23,7 +23,6 @@ span {
     font-size: 16px;
     line-height: 1.2;
 }
-
 * {
     box-sizing: border-box;
 }
@@ -96,6 +95,14 @@ section .section_title {
     background: #fff;
     color: #28c1e2;
     transition: all 0.2s ease-in-out;
+}
+@media (max-width: 1440px) {
+    .banner-section .db_site_margins {
+        max-width: 1300px;
+    }
+    .db_site_margins {
+        max-width: 1024px;
+    }
 }
 @media (max-width: 1300px) {
     .db_site_margins {

@@ -6,10 +6,9 @@ section#about {
     padding-bottom: 60px;
 }
 #about .db_site_margins {
-    display: flex;
 }
 .about_picture_section {
-    width: 50%;
+    width: 100%;
 }
 #about .about_profile_pic {
     width: 400px;
@@ -23,7 +22,7 @@ section#about {
 }
 
 .about_content {
-    width: 50%;
+    width: 100%;
     padding: 40px;
 }
 .about_content p {

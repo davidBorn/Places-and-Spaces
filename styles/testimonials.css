@@ -41,6 +41,12 @@ section#Testimonials .testimonial-name {
 section#Testimonials .testimonial-name p {
     margin: 0 0 0 5px;
 }
+section#Testimonials span:last-child {
+    display: block;
+    width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+}
 @media (max-width: 992px) {
     section#Testimonials .testimonial-item {
         flex: 0 1 48%;
