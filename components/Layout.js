@@ -12,9 +12,12 @@ const Layout = ({ isPreview, children, altLangs, lang, menu }) => (
                 name="viewport"
                 content="width=device-width, initial-scale=1"
             ></meta>
-            <meta name="robots" content="noindex, nofollow" />
             <link rel="icon" href="/favicon.png" type="image/png" />
             <title>The Assisted Living Places and Spaces</title>
+            <meta
+                name="description"
+                content="The Assisted Living Places and Spaces is a FREE referral Service specializing in helping families locate, evaluate, and select senior living homes, spaces and communities. This includes Assisted Living Communities, Independently Owned Assisted Living Homes/Spaces, Alzheimer's Care Places, Memory Care Spaces, Retirement Communities. CONTACT US Today: For a FREE Assessment & Consultation!"
+            />
 
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link
