@@ -12,7 +12,6 @@ const Layout = ({ isPreview, children, altLangs, lang, menu }) => (
                 name="viewport"
                 content="width=device-width, initial-scale=1"
             ></meta>
-            <link rel="icon" href="/favicon.png" type="image/png" />
             <title>The Assisted Living Places and Spaces</title>
             <meta
                 name="description"
